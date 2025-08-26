@@ -1,0 +1,14 @@
+/* src/styles/global.css */
+/* 全局样式：清除根元素默认边距 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* 确保根元素占满屏幕高度 */
+}
+
+/* 全局通用重置（可选，避免其他默认样式干扰） */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
