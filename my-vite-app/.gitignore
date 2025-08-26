@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# 依赖相关
+node_modules/
+.pnp
+.pnp.js
+
+# 测试相关
+coverage/
+.vitest/
+.nyc_output/
+
+# 环境变量和配置文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# 编辑器/IDE 相关
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vue 特定
+*.js.map
+*.css.map
+*.vue.map
+
+# Vite 相关
+dist/
+*.gz
+.temp/
+.cache/
+.vite/
+
+# 构建工具相关
+.eslintcache
+.prettiercache
+
+# 其他
+tmp/
+temp/
+    
